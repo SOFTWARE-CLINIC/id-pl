@@ -23,7 +23,9 @@ $ npm install id-pl --save --save-exact
 ```js
 const PESEL = require('id-pl').PESEL;
 const REGON = require('id-pl').REGON;
+const IdentityCard = require('id-pl').IdentityCard;
 
 expect(PESEL.isValid('83071503434')).to.be.true;
 expect(REGON.isValid('975124224')).to.be.true;
+expect(IdentityCard.isValid('ABA300000')).to.be.true;
 ```
