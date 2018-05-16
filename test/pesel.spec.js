@@ -1,6 +1,6 @@
 'use strict';
 
-const PESEL = require('../lib/pesel');
+const PESEL = require('../index').PESEL;
 const expect = require('chai').expect;
 
 describe('PESEL', function () {

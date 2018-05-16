@@ -1,6 +1,6 @@
 'use strict';
 
-const REGON = require('../lib/regon');
+const REGON = require('../index').REGON;
 const expect = require('chai').expect;
 
 describe('REGON', function () {

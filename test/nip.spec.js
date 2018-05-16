@@ -1,6 +1,6 @@
 'use strict';
 
-const NIP = require('../lib/nip');
+const NIP = require('../index').NIP;
 const expect = require('chai').expect;
 
 describe('NIP', function () {
