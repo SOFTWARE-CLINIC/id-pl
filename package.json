@@ -1,6 +1,6 @@
 {
   "name": "id-pl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Provides utility methods to validate and generate various identification numbers used in Poland such as NIP, REGON, PESEL, etc.",
   "keywords": [
     "random",
